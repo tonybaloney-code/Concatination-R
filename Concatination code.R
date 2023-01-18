@@ -17,7 +17,7 @@ vac1<- separate(vac_dnapol, "seq.name",
            sep = (".peg."),
            extra = "drop")%>%
   mutate(., name = "vac")%>%
-  unite(., "name", accession, name, sep = "") ##WORKED!!!!!
+  unite(., "name", accession, name, sep = "")
 
 
 ##concatenation
